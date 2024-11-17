@@ -56,6 +56,7 @@ export default function BlogLayout({
 }: {
   children: React.ReactNode;
 }) {
+  console.log("hello");
   return (
     <div className="min-h-svh bg-gray-100 p-8">
       <header className="text-center mb-12">
